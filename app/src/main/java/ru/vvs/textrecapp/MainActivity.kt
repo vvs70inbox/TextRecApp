@@ -105,8 +105,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
-
-
             copyToClipboard.setOnClickListener {
                 val textToCopy = textInImage.text
                 if (isTextValid(textToCopy.toString())) {
